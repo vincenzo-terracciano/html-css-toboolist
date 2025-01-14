@@ -36,6 +36,8 @@ body{
     padding-left: 50px;
     padding-top: 15px;
     padding-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
     
     }
 
@@ -45,6 +47,8 @@ body{
     padding-left: 50px;
     padding-top: 5px;
     padding-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
 }    
 
 .add-task{
@@ -66,10 +70,6 @@ body{
     border-radius: 3px;
     text-align: center;
     }
-
-hr{
-    border-color: #f6f8f9;
-}
 
 .button-editorial{
     background-color: var(--list-editorial);
