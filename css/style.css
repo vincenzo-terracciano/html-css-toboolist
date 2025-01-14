@@ -31,34 +31,102 @@ body{
 }
 
 .case{
-        background-color: var(--list-light);
-        margin: 3rem;
-        padding-left: 50px;
-        padding-top: 15px;
-        padding-bottom: 10px;
-       
+    background-color: var(--list-light);
+    margin: 0.1rem;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
     }
 
-    .add-task{
-        width: 60px;
-        height: 30px;
-        background-color: var(--list-task);
-        color: white;
-        display: inline-block;
-        border-radius: 3px;
-        text-align: center;
+.case-2{
+    background-color: var(--list-light);
+    margin: 0.1rem;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}    
+
+.add-task{
+    width: 60px;
+    height: 30px;
+    background-color: var(--list-task);
+    color: white;
+    display: inline-block;
+    border-radius: 3px;
+    text-align: center;
     }
 
-    .add-section{
-        width: 100px;
-        height: 30px;
-        display: inline-block;
-        color: var(--list-section);
-        border: 1px solid var(--list-section);
-        border-radius: 3px;
-        text-align: center;
+.add-section{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    color: var(--list-section);
+    border: 1px solid var(--list-section);
+    border-radius: 3px;
+    text-align: center;
     }
 
 hr{
     border-color: #f6f8f9;
+}
+
+.button-editorial{
+    background-color: var(--list-editorial);
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+    padding: 8px;
+}
+
+.button-goals{
+    background-color: var(--list-goals);
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+    padding: 8px;
+}
+
+.button-recruiting{
+    background-color: var(--list-recruiting);
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+    padding: 8px;
+}
+
+.button-mobile{
+    background-color: var(--list-mobile);
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+    padding: 8px;
+}
+
+.button-website{
+    background-color: var(--list-website);
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+    padding: 8px;
+}
+
+.button-sales{
+    background-color: var(--list-sales);
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+    padding: 8px;
 }
