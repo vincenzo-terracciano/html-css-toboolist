@@ -33,25 +33,32 @@ body{
 .case{
         background-color: var(--list-light);
         margin: 3rem;
+        padding-left: 50px;
+        padding-top: 15px;
+        padding-bottom: 10px;
        
     }
 
     .add-task{
         width: 60px;
-        height: 25px;
+        height: 30px;
         background-color: var(--list-task);
         color: white;
         display: inline-block;
         border-radius: 3px;
+        text-align: center;
     }
 
     .add-section{
         width: 100px;
-        height: 25px;
+        height: 30px;
         display: inline-block;
         color: var(--list-section);
         border: 1px solid var(--list-section);
         border-radius: 3px;
+        text-align: center;
     }
 
-
+hr{
+    border-color: #f6f8f9;
+}
