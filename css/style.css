@@ -22,6 +22,22 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+ul{
+    list-style: none;
+    li 
+    {
+        margin-bottom: 15px;
+    }
+}
+
+details{
+    margin-bottom: 30px;
+}
+
+summary{
+    margin-bottom: 20px;
+}
+
 #site-header{
     background-color: var(--list-light);
     padding: 10px;
@@ -60,6 +76,7 @@ body{
 
 .down{
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .btn{
@@ -72,10 +89,74 @@ body{
     background-color: var(--list-task);
     color: white;
     border: 2px solid var(--list-task);
+
+    &:hover{
+        background-color: darkslateblue;
+        border: 1px solid var(--list-task);
+        cursor: pointer;
+    }
 }
 
 .second-btn{
     background-color: transparent;
     color: var(--list-section);
     border: 2px solid var(--list-section);
+
+    &:hover{
+        background-color: var(white);
+        color: grey;
+        cursor: pointer;
+    }
 }
+
+.circle{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid;
+    text-align: center;
+    line-height: 20px;
+}
+
+.circle-check{
+    color: rgb(85, 181, 85);
+    
+}
+
+.circle-delete{
+    color: red;
+}
+
+.badge{
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 8px;
+    color: white;
+    padding: 4px 8px;
+    background-color: black;
+}
+
+.badge-editorial{
+    background-color: var(--list-editorial);
+}
+
+.badge-goals{
+    background-color: var(--list-goals);
+}
+.badge-recruiting{
+    background-color: var(--list-recruiting);
+}
+
+.badge-mobile{
+    background-color: var(--list-mobile);
+}
+
+.badge-website{
+    background-color: var(--list-website);
+}
+
+.badge-sales{
+    background-color: var(--list-sales);
+}
+
