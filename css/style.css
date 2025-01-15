@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --list-light: #ffffff;
     --list-background: #f6f8f9;
@@ -12,121 +18,64 @@
 }
 
 body{
-    margin: 0;
+    background-color: var(--list-background);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.title{
+#site-header{
     background-color: var(--list-light);
-    padding-left: 20px;
-    padding-top: 10px;
+    padding: 10px;
 }
 
-.text-title{
-    font-size: 2rem;
+#logo{
+    vertical-align: middle;
+}
+
+#text-logo{
+    font-size: 40px;
+    vertical-align: middle;
 }
 
 .page{
-    background-color: var(--list-background);
-    padding: 10px;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
 }
 
 .case{
     background-color: var(--list-light);
-    margin: 0.1rem;
-    padding-left: 50px;
+    border-radius: 7px;
+    margin: 10px 0;
+}
+
+.up, .down{
+    padding-left: 20px;
+}
+
+.up{
+    border-bottom: 2px solid var(--list-background);
     padding-top: 15px;
-    padding-bottom: 10px;
-    margin-left: 200px;
-    margin-right: 200px;
-    
-    }
+    padding-bottom: 6px
+}
 
-.case-2{
-    background-color: var(--list-light);
-    margin: 0.1rem;
-    padding-left: 50px;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    margin-left: 200px;
-    margin-right: 200px;
-}    
+.down{
+    padding-top: 20px;
+}
 
-.add-task{
-    width: 60px;
-    height: 30px;
+.btn{
+    padding: 1px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.first-btn{
     background-color: var(--list-task);
     color: white;
-    display: inline-block;
-    border-radius: 3px;
-    text-align: center;
-    }
+    border: 2px solid var(--list-task);
+}
 
-.add-section{
-    width: 100px;
-    height: 30px;
-    display: inline-block;
+.second-btn{
+    background-color: transparent;
     color: var(--list-section);
-    border: 1px solid var(--list-section);
-    border-radius: 3px;
-    text-align: center;
-    }
-
-.button-editorial{
-    background-color: var(--list-editorial);
-    width: 50px;
-    height: 20px;
-    border-radius: 10px;
-    font-size: 10px;
-    color: white;
-    padding: 8px;
-}
-
-.button-goals{
-    background-color: var(--list-goals);
-    width: 50px;
-    height: 20px;
-    border-radius: 10px;
-    font-size: 10px;
-    color: white;
-    padding: 8px;
-}
-
-.button-recruiting{
-    background-color: var(--list-recruiting);
-    width: 50px;
-    height: 20px;
-    border-radius: 10px;
-    font-size: 10px;
-    color: white;
-    padding: 8px;
-}
-
-.button-mobile{
-    background-color: var(--list-mobile);
-    width: 50px;
-    height: 20px;
-    border-radius: 10px;
-    font-size: 10px;
-    color: white;
-    padding: 8px;
-}
-
-.button-website{
-    background-color: var(--list-website);
-    width: 50px;
-    height: 20px;
-    border-radius: 10px;
-    font-size: 10px;
-    color: white;
-    padding: 8px;
-}
-
-.button-sales{
-    background-color: var(--list-sales);
-    width: 50px;
-    height: 20px;
-    border-radius: 10px;
-    font-size: 10px;
-    color: white;
-    padding: 8px;
+    border: 2px solid var(--list-section);
 }
